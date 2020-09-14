@@ -1,0 +1,11 @@
+   
+        <mat-progress-bar *ngIf="!pokemonData" mode="indeterminate"></mat-progress-bar>
+            <mat-card *ngIf="pokemonData" class="example-card">
+                <mat-card-header>
+                    <div mat-card-avatar class="example-header-image"></div>
+                    <mat-card-title>{{pokemonData[0]}}</mat-card-title>
+                    </mat-card-header>
+                    <img mat-card-image [src]="pokemonData[1]" alt="Photo of a Shiba Inu" class="image">
+                    <mat-card-content>
+                    </mat-card-content>
+        </mat-card>
