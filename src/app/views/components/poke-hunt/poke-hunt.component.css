@@ -1,7 +1,27 @@
-.example-card {
-    max-width: 400px;
-  }
+section{
+  width: 100%;
+  height: 90%;
+}
+*:not(mat-icon){
+  font:400 14px/20px Roboto, "Helvetica Neue", sans-serif;
 
-  .image{
-    max-width: 300px;
+}
+
+mat-label{
+  font-size: 18px;
+}
+.last-hunt-card{
+  max-height: 150px;
+  max-width: 400px;
+  margin-left:10px;
+}
+
+.poke-card{
+  margin-top:20px;
+}
+.poke-card .image{
+  max-width: 200px;
+}
+.last-hunt-card .image{
+    max-width:200px;
   }

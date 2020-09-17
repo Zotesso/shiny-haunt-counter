@@ -12,6 +12,6 @@ export class ServiceService {
   constructor(private http: HttpClient) { }
 
   getPokemonsByName(name: string){
-    return this.http.get<any>(`${this.baseUrl}/pokemon/${name}`);
+      return this.http.get<any>(`${this.baseUrl}/pokemon/${name}`);
   }
 }
