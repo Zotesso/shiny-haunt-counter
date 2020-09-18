@@ -25,3 +25,13 @@ mat-label{
 .last-hunt-card .image{
     max-width:200px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .poke-card{
+      max-height: 300px;
+      max-width: 400px;
+    }
+    .poke-card .image{
+      max-width: 100px;
+    }
+  }

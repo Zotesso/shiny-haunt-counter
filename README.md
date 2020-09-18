@@ -14,6 +14,6 @@ The pokemon informations are are being rescued from pokeapi!
 
 -------------------------------------
 
-## :ocean: Deploy
+## :ocean: Deployed At
 
-Coming soon
+https://pokeshinyhunt.netlify.app
